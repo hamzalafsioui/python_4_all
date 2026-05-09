@@ -1,0 +1,5 @@
+INFO: System started successfully.
+DEBUG: Cache cleared.
+ERROR: Database connection failed.
+INFO: User 'admin' logged in.
+ERROR: File not found: config.json
