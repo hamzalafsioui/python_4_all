@@ -1,0 +1,4 @@
+Python is awesome.
+File handling is easy.
+This is the third line.
+Final line of the sample file.
