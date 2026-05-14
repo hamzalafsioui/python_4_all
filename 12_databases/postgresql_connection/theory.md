@@ -39,7 +39,8 @@ conn = psycopg2.connect(
 
 ## 4. Environment Variables (CRITICAL)
 **Never** hardcode your database password in your `.py` files! If you upload that code to GitHub, anyone can find your password.
-- **Solution**: Save your password in a `.env` file and read it using the `os` module or a library like `python-dotenv`.
+- **Solution**: Save your password in a `.env` file and read it using the `os` module.
+- **Tip**: Use `pip install python-dotenv` and add `from dotenv import load_dotenv; load_dotenv()` at the top of your script to automatically load the `.env` file into your environment.
 
 ---
 
