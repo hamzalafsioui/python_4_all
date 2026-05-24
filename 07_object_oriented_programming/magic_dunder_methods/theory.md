@@ -43,3 +43,12 @@ When you write `a + b`, Python secretly looks for `a.__add__(b)`. If it finds it
 1. **Be Consistent**: If you implement `__add__`, users expect it to behave like addition. Don't use `+` to delete files!
 2. **Always Implement `__str__`**: It makes debugging and logging much easier.
 3. **Check Types**: In methods like `__add__`, always check if the `other` object is of the type you expect before performing operations.
+---
+
+## Resources
+
+- **Official Python Data Model Documentation** – https://docs.python.org/3/reference/datamodel.html
+- **Real Python: Python Magic Methods and Operator Overloading** – https://realpython.com/python-magic-methods/
+- **Corey Schafer: Python OOP Tutorial - Dunder Methods (YouTube)** – https://www.youtube.com/watch?v=3ohzBxoFHAY
+- **GeeksforGeeks: Python Magic Methods** – https://www.geeksforgeeks.org/magic-methods-in-python/
+- **Fluent Python (Book) – Chapter on Data Model** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

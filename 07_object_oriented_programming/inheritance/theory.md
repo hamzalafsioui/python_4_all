@@ -58,3 +58,13 @@ Python uses the **MRO (Method Resolution Order)** to decide which parent's metho
 1. **The "Is-A" Test**: Only use inheritance if you can say "Child IS A Parent." If it's just "Child HAS A Parent," use **Composition** instead (making the parent an attribute of the child).
 2. **Don't Over-inherit**: Deep hierarchies (5+ levels) become very hard to debug. Keep it shallow!
 3. **Use `isinstance()` and `issubclass()`**: Professional ways to check relationships at runtime.
+---
+
+## Resources
+
+- **Official Python Inheritance Documentation** – https://docs.python.org/3/tutorial/classes.html#inheritance
+- **Real Python: Inheritance in Python** – https://realpython.com/inheritance-composition-python/
+- **Corey Schafer: Python OOP - Inheritance (YouTube)** – https://www.youtube.com/watch?v=Rsl6cC1d4rM
+- **GeeksforGeeks: Inheritance in Python** – https://www.geeksforgeeks.org/inheritance-in-python/
+- **Fluent Python (Book) – Chapter on Inheritance** – https://www.oreilly.com/library/view/fluent-python/9781491946237/
+

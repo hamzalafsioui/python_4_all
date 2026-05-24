@@ -54,3 +54,11 @@ A class should have one job. Don't create a `GodClass` that handles database con
 
 > [!TIP]
 > Use `isinstance(obj, ClassName)` to check if an object belongs to a certain class. This is much better than comparing types directly.
+
+## Resources
+
+- **Official Python OOP Documentation** – https://docs.python.org/3/tutorial/classes.html
+- **Real Python: Object-Oriented Programming (OOP) in Python** – https://realpython.com/python3-object-oriented-programming/
+- **Corey Schafer: OOP Tutorial (YouTube)** – https://www.youtube.com/watch?v=JeznW_7DlB0
+- **Python Docs: Data Model** – https://docs.python.org/3/reference/datamodel.html
+- **Effective Python: 12. Use properties instead of public data attributes** – https://effectivepython.com/

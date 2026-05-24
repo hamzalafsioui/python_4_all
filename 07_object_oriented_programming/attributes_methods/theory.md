@@ -64,3 +64,12 @@ class Person:
 1. **Prefer Instance Attributes**: Only use class attributes for constants or shared data (like a global counter).
 2. **Use `@property` for Validation**: Never let a user modify "sensitive" data directly if there are rules to follow.
 3. **Keep Methods Focused**: A method should do one thing well. If it's getting too long, break it into smaller helper methods.
+---
+
+## Resources
+
+- **Official Python Documentation on Classes** – https://docs.python.org/3/tutorial/classes.html
+- **Real Python: Python Classes and Objects – Attributes & Methods** – https://realpython.com/python3-object-oriented-programming/#attributes-and-methods
+- **Corey Schafer: Python OOP – Class & Instance Attributes (YouTube)** – https://www.youtube.com/watch?v=ZDa-Z5JzLYM
+- **GeeksforGeeks: Python Class Attributes and Methods** – https://www.geeksforgeeks.org/python-class-attributes-and-methods/
+- **Fluent Python (Book) – Chapter on Data Model / Attributes** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

@@ -51,3 +51,13 @@ class BankAccount:
 1. **Default to Protected (`_`)**: Most internal data should be protected.
 2. **Use Private (`__`) Sparingly**: Only use double underscores if you truly want to prevent name clashes or very strong warnings.
 3. **Hide the "How," Show the "What"**: Users of your class should know *what* they can do (e.g., `account.deposit()`), but they shouldn't need to know *how* the balance is stored internally.
+---
+
+## Resources
+
+- **Official Python Documentation on Encapsulation** – https://docs.python.org/3/tutorial/classes.html#private-variables
+- **Real Python: Encapsulation in Python** – https://realpython.com/encapsulation-in-python/
+- **Corey Schafer: Python OOP - Encapsulation (YouTube)** – https://www.youtube.com/watch?v=VJ6QZ-6L0I0
+- **GeeksforGeeks: Encapsulation in Python** – https://www.geeksforgeeks.org/encapsulation-in-python/
+- **Fluent Python (Book) – Chapter on Encapsulation** – https://www.oreilly.com/library/view/fluent-python/9781491946237/
+
