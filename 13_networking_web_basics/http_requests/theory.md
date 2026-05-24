@@ -59,4 +59,13 @@ data = response.json()      # Converts JSON to a Python dictionary
 ## 6. Best Practices
 1. **Check Status Codes**: Always verify `response.status_code == 200` before trying to use the data.
 2. **Use Timeouts**: Never make a request without a `timeout`. If the server is dead, your script will hang forever! (`requests.get(url, timeout=5)`)
-3. **Handle Exceptions**: Wrap requests in a `try/except` block to catch network failures (e.g., no internet).
+
+## Resources
+
+- **Official Requests Documentation** – https://docs.python-requests.org/
+- **Real Python: Python Requests Tutorial** – https://realpython.com/python-requests/
+- **MDN Web Docs: HTTP Overview** – https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+- **HTTP Status Codes List** – https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+- **Python Requests: Advanced Usage** – https://requests.readthedocs.io/en/latest/user/advanced/
+- **Testing HTTP Requests with pytest** – https://realpython.com/python-testing/
+

@@ -54,3 +54,11 @@ Using the `?` placeholder prevents hackers from "injecting" malicious code into 
 1. **Always Commit**: If you don't call `conn.commit()`, your `INSERT` or `UPDATE` commands will be forgotten!
 2. **Use Primary Keys**: Every table should have an `id INTEGER PRIMARY KEY` column to uniquely identify each row.
 3. **Close Connections**: Always close your connection when finished to avoid file locking issues.
+
+## Resources
+- **SQLite Official Documentation** – https://www.sqlite.org/docs.html
+- **Python Docs – sqlite3 Module** – https://docs.python.org/3/library/sqlite3.html
+- **Real Python – Using SQLite with Python** – https://realpython.com/python-sqlite-sqlite3/
+- **Corey Schafer – SQLite Tutorial (Python)** – https://www.youtube.com/watch?v=pd-0G0MigNU
+- **GeeksforGeeks – SQLite in Python** – https://www.geeksforgeeks.org/sqlite-in-python/
+- **Stack Overflow – SQLite Python Questions** – https://stackoverflow.com/questions/tagged/sqlite+python

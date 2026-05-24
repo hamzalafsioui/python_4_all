@@ -83,4 +83,10 @@ pip install sqlalchemy
 
 1. **Always Commit**: Just like raw SQL, your changes aren't permanent until you call `session.commit()`.
 2. **Use Type Hints**: Modern SQLAlchemy works beautifully with Python type hints for better autocompletion.
-3. **Session Management**: Always close your session when finished (`session.close()`).
+## Resources
+- **SQLAlchemy Documentation** – https://docs.sqlalchemy.org/en/20/
+- **Real Python – SQLAlchemy ORM Tutorial** – https://realpython.com/python-sqlalchemy/
+- **Corey Schafer – SQLAlchemy ORM Tutorial** – https://www.youtube.com/watch?v=3et3Dwu7G6Q
+- **Full Stack Python – SQLAlchemy Guide** – https://www.fullstackpython.com/sqlalchemy.html
+- **Programiz – SQLAlchemy ORM** – https://www.programiz.com/python-programming/sqlalchemy
+- **Stack Overflow – SQLAlchemy Questions** – https://stackoverflow.com/questions/tagged/sqlalchemy

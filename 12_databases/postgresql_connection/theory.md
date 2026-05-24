@@ -55,3 +55,11 @@ For the most part, the SQL is the same as SQLite, but there are some small diffe
 1. **Use Context Managers**: Use `with conn:` and `with conn.cursor() as cur:` to ensure the connection and cursor are closed properly, even if an error occurs.
 2. **Handle Exceptions**: Database connections can fail (server down, wrong password). Always wrap your connection code in a `try/except` block.
 3. **Closing**: Just like a file, a database connection is a "resource." If you open too many without closing them, the server will refuse to talk to you!
+
+## Resources
+- **PostgreSQL Official Documentation** – https://www.postgresql.org/docs/
+- **psycopg2 Documentation** – https://www.psycopg.org/docs/
+- **Real Python – How to Use PostgreSQL with Python (psycopg2)** – https://realpython.com/python-postgresql/
+- **Corey Schafer – PostgreSQL & Python (psycopg2) Tutorial** – https://www.youtube.com/watch?v=qw--VYLpxG4
+- **DigitalOcean – How To Connect to a PostgreSQL Database Using Python** – https://www.digitalocean.com/community/tutorials/how-to-connect-to-a-postgresql-database-using-python-and-psycopg2
+- **Stack Overflow – PostgreSQL Python Questions** – https://stackoverflow.com/questions/tagged/postgresql+python

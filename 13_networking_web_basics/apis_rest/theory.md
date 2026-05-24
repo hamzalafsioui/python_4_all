@@ -49,3 +49,11 @@ Servers have limits. If you make 1,000 requests in 1 second, the server will blo
 1. **Read the Docs**: Every API is different. Use tools like **Swagger** or **Postman** to test an API before writing any code.
 2. **Hide your Keys**: Just like database passwords, never put API keys in your code. Use `.env` files.
 3. **Handle 404s**: Sometimes a resource is deleted. Your code should handle cases where `requests.get()` returns a 404.
+
+## Resources
+- **MDN Web Docs – HTTP Overview** – https://developer.mozilla.org/en-US/docs/Web/HTTP
+- **RESTful API Tutorial** – https://restfulapi.net/
+- **OpenAPI / Swagger Specification** – https://swagger.io/docs/specification/about/
+- **Postman Learning Center** – https://learning.postman.com/
+- **Real Python – API Design** – https://realpython.com/api-design/
+- **YouTube – REST API Concepts and Examples** – https://www.youtube.com/watch?v=7YcW25PHnAA

@@ -68,3 +68,10 @@ link = soup.find("a").get("href")
 1. **Use CSS Selectors**: `soup.select(".my-class")` is often more powerful than `find_all`.
 2. **Handle NoneTypes**: If a tag doesn't exist, `find()` returns `None`. Always check before calling `.get_text()`.
 3. **Inspect First**: Always use your browser's "Inspect Element" (F12) to find the classes and IDs before writing any code.
+
+## Resources
+- **Beautiful Soup Documentation** – https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- **Real Python – Web Scraping with Beautiful Soup** – https://realpython.com/beautiful-soup-web-scraper-python/
+- **Automate the Boring Stuff – Chapter 12 (Web Scraping)** – https://automatetheboringstuff.com/2e/chapter12/
+- **YouTube – Web Scraping Tutorial (Corey Schafer)** – https://www.youtube.com/watch?v=ng2o98k983k
+- **Ethics of Web Scraping – MIT Lecture** – https://ocw.mit.edu/18-720-web-scraping-ethics/

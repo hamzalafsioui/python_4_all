@@ -65,3 +65,11 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 1. **Close your Sockets**: Always close sockets when finished, or use context managers (`with` blocks) to prevent ports from getting locked.
 2. **Handle Address Already in Use**: If a server crashes, the port might remain locked for a minute. Use `s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)` before binding to bypass this.
 3. **Specify Buffer Size**: When receiving data, specify a sensible chunk size (e.g., `1024` or `4096` bytes).
+
+## Resources
+
+- **Official Python Socket Documentation** – https://docs.python.org/3/library/socket.html
+- **Real Python: Socket Programming** – https://realpython.com/python-sockets/
+- **Beej's Guide to Network Programming** – https://beej.us/guide/bgnet/
+- **MDN Web Docs: WebSockets Overview** – https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+- **Python Network Programming Cookbook** – https://www.packtpub.com/product/python-network-programming-cookbook/9781785284599

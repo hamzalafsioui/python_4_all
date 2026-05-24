@@ -69,3 +69,11 @@ python main.py
 | **Validation** | Manual | Automatic (Pydantic) |
 | **Docs** | Manual | Automatic (/docs) |
 | **Feel** | Flexible/Traditional | Modern/Strict |
+
+## Resources
+
+- **Official Flask Documentation** – https://flask.palletsprojects.com/
+- **Flask Mega‑Tutorial (Miguel Grinberg)** – https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+- **Flask vs FastAPI Comparison** – https://testdriven.io/blog/fastapi-vs-flask/
+- **Deploying Flask with Docker** – https://testdriven.io/blog/dockerizing-flask/
+- **Flask Testing Guide** – https://flask.palletsprojects.com/en/2.3.x/testing/

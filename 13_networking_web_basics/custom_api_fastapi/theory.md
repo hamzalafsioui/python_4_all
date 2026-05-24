@@ -71,3 +71,12 @@ Once the server is running, visit:
 1. **Use Type Hints**: Always define your parameters as `id: int` or `name: str`. FastAPI uses this to return a 422 error if the user sends the wrong data type.
 2. **Pydantic for POST**: Always use Pydantic models for the "Body" of a POST request.
 3. **Async when possible**: If your API is doing I/O (database, network), use `async def` for better performance.
+
+## Resources
+
+- **Official FastAPI Documentation** – https://fastapi.tiangolo.com/
+- **FastAPI Tutorial (YouTube)** – https://www.youtube.com/watch?v=0sOvCWFmrtA
+- **FastAPI & Pydantic Deep Dive (Real Python)** – https://realpython.com/fastapi-python-web-apis/
+- **FastAPI in Production (Book)** – "FastAPI: The Complete Guide" by Sebastián Ramírez (O'Reilly, 2023)
+- **Testing FastAPI Applications** – https://fastapi.tiangolo.com/tutorial/testing/
+- **Deploying FastAPI with Docker** – https://fastapi.tiangolo.com/deployment/docker/
