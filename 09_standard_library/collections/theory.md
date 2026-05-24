@@ -57,3 +57,11 @@ q.pop() # Removes "c"
 1. **Use NamedTuple for Data**: If you just need to store data without complex methods, use `namedtuple` instead of a class.
 2. **Clean Loops**: Use `Counter` to simplify logic that counts frequencies.
 3. **Queue Safety**: Use `deque(maxlen=10)` to automatically keep only the last 10 items (perfect for logs).
+
+## Resources
+
+- **Official Python collections Documentation** – https://docs.python.org/3/library/collections.html
+- **Real Python: Python's collections Module** – https://realpython.com/python-collections-module/
+- **Corey Schafer: Python Tutorial - Collections Module** – https://www.youtube.com/watch?v=cg3Z96-uQmA
+- **Python Deque (Real Python)** – https://realpython.com/python-deque/
+- **Effective Python (Book by Brett Slatkin)** – https://effectivepython.com/

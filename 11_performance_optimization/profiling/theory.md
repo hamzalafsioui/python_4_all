@@ -41,3 +41,11 @@ If the text report is too hard to read, developers use tools like **SnakeViz** t
 1. **Profile in "Real" Conditions**: Use a large dataset that matches what you expect in production.
 2. **Sort by `cumtime`**: This usually points you to the "top-level" function that is causing the delay.
 3. **Repeatability**: Run the profiler a few times to make sure the slow parts are consistent and not just caused by a background task on your computer.
+
+## Resources
+
+- **Official Python cProfile Documentation** – https://docs.python.org/3/library/profile.html
+- **Real Python: Profiling in Python** – https://realpython.com/python-profiling/
+- **SnakeViz (Profile Visualizer)** – https://jiffyclub.github.io/snakeviz/
+- **Pyinstrument (Alternative Profiler)** – https://pyinstrument.readthedocs.io/
+- **High Performance Python (Book)** – https://www.oreilly.com/library/view/high-performance-python/9781492055013/

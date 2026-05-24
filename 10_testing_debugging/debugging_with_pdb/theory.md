@@ -51,3 +51,11 @@ When the program pauses, you will see a prompt `(Pdb)`. Here are the most common
 1. **Don't leave breakpoints**: Always remove `breakpoint()` before pushing your code to GitHub.
 2. **Start early**: If you're confused by a complex loop, drop a breakpoint at the start of the loop.
 3. **Use 's' sparingly**: Only use "step" if you suspect the bug is *inside* a specific function. Otherwise, use "next" to stay in the current file.
+
+## Resources
+
+- **Official Python pdb Documentation** – https://docs.python.org/3/library/pdb.html
+- **Real Python: Python Debugging With Pdb** – https://realpython.com/python-debugging-pdb/
+- **pdb Tutorial (YouTube)** – https://www.youtube.com/watch?v=VQjq_sW6Vms
+- **pdb Cheat Sheet** – https://nblock.org/2021/04/09/pdb-cheat-sheet/
+- **Advanced Python Debugging (Book/Guide)** – https://www.oreilly.com/library/view/high-performance-python/9781492055013/

@@ -37,3 +37,11 @@ These are perfect for probability, permutations, and "all possible combinations"
 1. **Always use islice for Infinites**: If you use `count()` or `cycle()`, wrap them in `islice()` to ensure you don't create an infinite loop that crashes your computer.
 2. **Prefer product over Nesting**: If you find yourself nesting more than 2 `for` loops, use `itertools.product` to flatten your code.
 3. **Chain for Large Data**: If you have two 1GB lists and you want to iterate over both, `list1 + list2` will use 4GB of RAM (the original two + the new one). `chain(list1, list2)` uses almost zero extra memory.
+
+## Resources
+
+- **Official Python itertools Documentation** – https://docs.python.org/3/library/itertools.html
+- **Real Python: Itertools in Python 3, By Example** – https://realpython.com/python-itertools/
+- **Corey Schafer: Python Tutorial - Itertools Module** – https://www.youtube.com/watch?v=Qu3dThVy6KQ
+- **Itertools Recipes (Python Docs)** – https://docs.python.org/3/library/itertools.html#itertools-recipes
+- **More Itertools (Third-Party Library)** – https://more-itertools.readthedocs.io/

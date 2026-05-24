@@ -58,3 +58,11 @@ Or, if you have many files:
 2. **Descriptive Names**: Name your tests like `test_withdraw_insufficient_funds` so it's clear what failed.
 3. **Keep Tests Independent**: One test should not depend on the result of another.
 4. **Test Edge Cases**: Don't just test the "happy path." Test what happens with empty lists, zero, or invalid inputs.
+
+## Resources
+
+- **Official Python unittest Documentation** – https://docs.python.org/3/library/unittest.html
+- **Real Python: Getting Started With Testing in Python** – https://realpython.com/python-testing/
+- **Test-Driven Development with Python (Book)** – https://www.obeythetestinggoat.com/
+- **Python Unit Testing Tutorial (YouTube)** – https://www.youtube.com/watch?v=6tNS--WetLI
+- **Unit Testing Principles, Practices, and Patterns (Book)** – https://www.manning.com/books/unit-testing

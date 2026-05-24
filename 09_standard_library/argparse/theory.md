@@ -47,3 +47,11 @@ parser.add_argument("-v", "--verbose", action="store_true", help="Enable detaile
 1. **Always use help**: Provide a short description for every argument.
 2. **Use --long-names**: While `-v` is convenient, `--verbose` makes scripts more readable.
 3. **Group related args**: Keep your CLI organized if it has many options.
+
+## Resources
+
+- **Official Python argparse Documentation** – https://docs.python.org/3/library/argparse.html
+- **Argparse Tutorial (Python Docs)** – https://docs.python.org/3/howto/argparse.html
+- **Real Python: Command Line Interfaces in Python** – https://realpython.com/command-line-interfaces-python-argparse/
+- **Argparse Video Tutorial (Corey Schafer)** – https://www.youtube.com/watch?v=cdblJqEUDNo
+- **Click (An alternative to argparse)** – https://click.palletsprojects.com/

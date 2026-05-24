@@ -50,3 +50,11 @@ Because threads share memory, if two threads try to modify the same variable at 
 ## 5. Summary
 - **Math/Data Processing** -> CPU-Bound -> Use `multiprocessing`.
 - **Downloading/Web Scraping/Databases** -> I/O-Bound -> Use `threading`.
+
+## Resources
+
+- **Official Python threading Documentation** – https://docs.python.org/3/library/threading.html
+- **Official concurrent.futures Documentation** – https://docs.python.org/3/library/concurrent.futures.html
+- **Real Python: Intro to Threads in Python** – https://realpython.com/intro-to-python-threading/
+- **Understanding the Python GIL** – https://realpython.com/python-gil/
+- **Threading in Python (YouTube)** – https://www.youtube.com/watch?v=IEEhzQoKtQU

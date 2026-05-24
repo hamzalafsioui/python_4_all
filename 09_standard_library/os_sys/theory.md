@@ -44,3 +44,11 @@ When you run `python script.py hello 123`:
 1. **Cross-Platform Safety**: Never hardcode slashes like `folder/file.txt`. Always use `os.path.join("folder", "file.txt")`.
 2. **Environment Secrets**: Use `os.environ.get("API_KEY")` to store sensitive data instead of hardcoding it in your code.
 3. **Arg Check**: Before accessing `sys.argv[1]`, check `len(sys.argv)` to avoid an `IndexError`.
+
+## Resources
+
+- **Official Python os Module Documentation** – https://docs.python.org/3/library/os.html
+- **Official Python sys Module Documentation** – https://docs.python.org/3/library/sys.html
+- **Corey Schafer: OS Module Tutorial (YouTube)** – https://www.youtube.com/watch?v=tJxcKyFMTGo
+- **Real Python: Reading and Writing Files in Python** – https://realpython.com/read-write-files-python/
+- **Python's pathlib Module (A modern alternative to os.path)** – https://realpython.com/python-pathlib/

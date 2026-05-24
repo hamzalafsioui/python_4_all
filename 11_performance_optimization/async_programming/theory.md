@@ -52,3 +52,11 @@ asyncio.run(say_hello())
 1. **Don't Block the Loop**: Never use `time.sleep()` inside an `async def` function. It will freeze the entire program. Always use `await asyncio.sleep()`.
 2. **Await Everything**: If a function is defined with `async def`, you must `await` it.
 3. **Use Gather for Speed**: If you have 10 tasks, don't `await` them one by one. Use `asyncio.gather(*tasks)` to run them all at once.
+
+## Resources
+
+- **Official Python asyncio Documentation** – https://docs.python.org/3/library/asyncio.html
+- **Real Python: Async IO in Python: A Complete Walkthrough** – https://realpython.com/async-io-python/
+- **Asyncio Explained (YouTube Video)** – https://www.youtube.com/watch?v=Xbl7XjFYsOU
+- **FastAPI Documentation (Async/Await)** – https://fastapi.tiangolo.com/async/
+- **Using Asyncio in Python (Book)** – https://www.oreilly.com/library/view/using-asyncio-in/9781492075325/

@@ -59,3 +59,11 @@ Because of how Windows handles processes, **any script that uses multiprocessing
 ## 5. Best Practices
 1. **Process Creation is Slow**: Starting a new process takes time and memory. Don't use multiprocessing for fast tasks; it will actually make your code slower! Only use it for tasks taking several seconds or minutes.
 2. **Avoid Shared State**: Because processes have separate memory, they don't share variables easily. Rely on passing data in (arguments) and getting data out (returns).
+
+## Resources
+
+- **Official Python multiprocessing Documentation** – https://docs.python.org/3/library/multiprocessing.html
+- **Real Python: Multiprocessing in Python** – https://realpython.com/python-multiprocessing/
+- **Understanding the Global Interpreter Lock (GIL)** – https://realpython.com/python-gil/
+- **Python Multiprocessing Tutorial (YouTube)** – https://www.youtube.com/watch?v=fKl2JW_qrso
+- **High Performance Python (Book)** – https://www.oreilly.com/library/view/high-performance-python/9781492055013/

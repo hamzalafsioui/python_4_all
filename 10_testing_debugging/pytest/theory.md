@@ -66,3 +66,11 @@ def test_add_many(a, b, expected):
 1. **Keep Assertions Simple**: One `assert` per test is a good rule of thumb for clarity.
 2. **Use Fixtures for Reusability**: If you need a database connection or a complex object in 5 tests, make it a fixture.
 3. **Group by Logic**: Even though classes aren't required, you can still use them to group related tests.
+
+## Resources
+
+- **Official Pytest Documentation** – https://docs.pytest.org/
+- **Real Python: Effective Python Testing With Pytest** – https://realpython.com/pytest-python-testing/
+- **Brian Okken's "Python Testing with pytest" (Book)** – https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/
+- **Test-Driven Development with Python (Book)** – https://www.obeythetestinggoat.com/
+- **Pytest Fixtures Explained (YouTube)** – https://www.youtube.com/watch?v=IVrGz8w0H8c

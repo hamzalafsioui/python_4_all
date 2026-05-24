@@ -54,3 +54,11 @@ print(f"Time taken: {end - start}s")
 1. **Avoid Nested Loops**: If you see a loop inside a loop, ask yourself: "Can I use a dictionary or set to make this $O(n)$?"
 2. **Choose the Right Tool**: Use a list for ordered data, but use a set if you need to check "Is this item here?" frequently.
 3. **Don't Optimize Too Early**: Write clean code first. Only optimize the parts that are actually slow (use profiling to find them).
+
+## Resources
+
+- **Big O Cheat Sheet** – https://www.bigocheatsheet.com/
+- **Time Complexity in Python (Real Python)** – https://realpython.com/python-time-complexity/
+- **CS50: Asymptotic Notation (YouTube)** – https://www.youtube.com/watch?v=iOq5kSKqeR4
+- **Python Time Complexity Wiki** – https://wiki.python.org/moin/TimeComplexity
+- **Grokking Algorithms (Book)** – https://www.manning.com/books/grokking-algorithms-second-edition

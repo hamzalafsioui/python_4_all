@@ -53,3 +53,11 @@ A timestamp is the number of seconds since **January 1, 1970** (the "Epoch"). It
 1. **Always use UTC**: When saving to a database, use `datetime.now(timezone.utc)`. Convert to local time only when showing it to the user.
 2. **Standard Formats**: Use ISO 8601 (`YYYY-MM-DD`) for storing dates whenever possible.
 3. **Avoid Manual Math**: Never try to calculate "seconds in a month" manually. Use `timedelta` or third-party libraries like `dateutil`.
+
+## Resources
+
+- **Official Python datetime Documentation** – https://docs.python.org/3/library/datetime.html
+- **Real Python: Python Timer Functions** – https://realpython.com/python-timer/
+- **Python datetime Tutorial (Corey Schafer, YouTube)** – https://www.youtube.com/watch?v=eirjjyP2qcQ
+- **Dateutil (Powerful Third-Party Extension)** – https://dateutil.readthedocs.io/
+- **Pendulum (Alternative Datetime Library)** – https://pendulum.eustace.io/

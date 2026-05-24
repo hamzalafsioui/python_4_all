@@ -44,3 +44,11 @@ logging.error("Failed to connect to database")
 2. **Use Timestamps**: Always include `%(asctime)s` in your format.
 3. **Log Exceptions**: Use `logging.exception("message")` inside an `except` block to automatically capture the full traceback.
 4. **Separate Files**: Log "system events" to one file and "user actions" to another if the app is large.
+
+## Resources
+
+- **Official Python logging Documentation** – https://docs.python.org/3/library/logging.html
+- **Python Logging Tutorial (Real Python)** – https://realpython.com/python-logging/
+- **Python Logging Basics (YouTube)** – https://www.youtube.com/watch?v=-ARI4CzFsWA
+- **Logging in Python: A Developer's Guide** – https://www.loggly.com/ultimate-guide/python-logging-basics/
+- **Good Logging Practice in Python** – https://fangpenlin.com/posts/2012/08/26/good-logging-practice-in-python/
