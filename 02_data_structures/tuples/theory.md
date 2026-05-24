@@ -56,3 +56,13 @@ Since tuples cannot be changed, they have only two built-in methods:
 > [!IMPORTANT]
 > To create a tuple with only **one item**, you must add a comma after the item, otherwise Python will not recognize it as a tuple:
 > `single_item_tuple = ("Apple",)`
+
+---
+
+## Resources
+
+- **Official Python Tuple Documentation** – https://docs.python.org/3/tutorial/datastructures.html#tuples
+- **Real Python: Python Tuples** – https://realpython.com/python-tuples/
+- **Corey Schafer: Python Tuples (YouTube)** – https://www.youtube.com/watch?v=W8KRzm-HU_I
+- **GeeksforGeeks: Python Tuple** – https://www.geeksforgeeks.org/python-tuples/
+- **Fluent Python (Book) – Chapter on Sequences** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

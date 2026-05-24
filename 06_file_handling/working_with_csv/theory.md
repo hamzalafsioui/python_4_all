@@ -61,3 +61,13 @@ with open('output.csv', mode='w', newline='') as file:
 
 > [!IMPORTANT]
 > When opening a file for writing CSVs, always include `newline=''` in the `open()` function. This prevents extra blank lines from being added on some operating systems (like Windows).
+
+---
+
+## Resources
+
+- **Official Python csv Module Documentation** – https://docs.python.org/3/library/csv.html
+- **Real Python: Working with CSV Files** – https://realpython.com/python-csv/
+- **Corey Schafer: CSV Files in Python (YouTube)** – https://www.youtube.com/watch?v=9U3jS-SRVo4
+- **GeeksforGeeks: CSV File Reading and Writing in Python** – https://www.geeksforgeeks.org/python-csv-module/
+- **Python for Data Analysis (Book) – Chapter on CSV I/O** – https://www.oreilly.com/library/view/python-for-data/9781491957653/

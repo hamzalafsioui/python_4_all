@@ -39,5 +39,17 @@ When a function calls itself, the computer "pauses" the current function and add
 
 ---
 
+# Updated content with Resources
 > [!CAUTION]
 > Always ensure your base case is reachable! If you define `factorial(-1)`, the recursion will never stop and the program will crash.
+
+---
+
+## Resources
+
+- **Official Python Recursion Documentation** – https://docs.python.org/3/reference/compound_stmts.html#recursive-functions
+- **Real Python: Recursion in Python** – https://realpython.com/python-recursion/
+- **Corey Schafer: Recursion (YouTube)** – https://www.youtube.com/watch?v=Mv9NEXX1VHc
+- **GeeksforGeeks: Recursion in Python** – https://www.geeksforgeeks.org/recursion-in-python/
+- **Fluent Python (Book) – Chapter on Recursion** – https://www.oreilly.com/library/view/fluent-python/9781491946237/
+

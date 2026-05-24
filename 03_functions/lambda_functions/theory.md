@@ -62,3 +62,11 @@ sorted_users = sorted(users, key=lambda user: user[1])
 
 > [!CAUTION]
 > Don't over-use lambdas! if your logic is complex or requires multiple lines, use a standard `def` function for better readability.
+
+## Resources
+
+- **Official Python Documentation on Lambdas** – https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+- **Real Python: How to Use Python Lambda Functions** – https://realpython.com/python-lambda/
+- **Corey Schafer: Lambda Expressions Tutorial (YouTube)** – https://www.youtube.com/watch?v=25ovCm9jKfA
+- **Functional Programming in Python** – https://docs.python.org/3/howto/functional.html
+

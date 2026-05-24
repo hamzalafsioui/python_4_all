@@ -48,4 +48,14 @@ To share your project, you should tell others which libraries you used.
 ---
 
 > [!CAUTION]
+
 > Never upload your `.venv` folder to GitHub. It's huge and system-specific. Instead, add `.venv/` to your `.gitignore` and only upload the `requirements.txt` file.
+
+## Resources
+
+- **Official Python venv Documentation** – https://docs.python.org/3/library/venv.html
+- **Real Python: Python Virtual Environments: A Primer** – https://realpython.com/python-virtual-environments-a-primer/
+- **Corey Schafer: Python Tutorial - VENV (Mac/Linux)** – https://www.youtube.com/watch?v=Kg1Yvry_Ydk
+- **Corey Schafer: Python Tutorial - VENV (Windows)** – https://www.youtube.com/watch?v=APOPm01BVrk
+- **Virtualenvwrapper (A useful tool for managing venvs)** – https://virtualenvwrapper.readthedocs.io/
+

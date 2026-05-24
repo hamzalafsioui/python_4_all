@@ -50,3 +50,13 @@ Checking if an item is in a set (`"apple" in my_set`) is **extremely fast** (O(1
 
 > [!IMPORTANT]
 > To create an **empty set**, you must use `set()`, not `{}`. Empty curly brackets `{}` create an empty **dictionary**.
+
+---
+
+## Resources
+
+- **Official Python Sets Documentation** – https://docs.python.org/3/tutorial/datastructures.html#sets
+- **Real Python: Python Sets** – https://realpython.com/python-sets/
+- **Corey Schafer: Python Sets (YouTube)** – https://www.youtube.com/watch?v=sBvaTxAQv7A
+- **GeeksforGeeks: Python Set** – https://www.geeksforgeeks.org/python-set/
+- **Fluent Python (Book) – Chapter on Sets** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

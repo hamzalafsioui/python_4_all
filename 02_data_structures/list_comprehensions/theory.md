@@ -58,3 +58,13 @@ Python also supports Set and Dictionary comprehensions using similar logic.
 
 > [!CAUTION]
 > Avoid making comprehensions too long or complex. If you have nested loops or too many conditions, a standard `for` loop is usually better for readability.
+
+---
+
+## Resources
+
+- **Official Python List Comprehensions Documentation** – https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+- **Real Python: List Comprehensions in Python** – https://realpython.com/list-comprehensions-python/
+- **Corey Schafer: List Comprehensions (YouTube)** – https://www.youtube.com/watch?v=3dt4ozlU7c8
+- **GeeksforGeeks: Python List Comprehension** – https://www.geeksforgeeks.org/python-list-comprehension/
+- **Fluent Python (Book) – Chapter on Data Structures** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

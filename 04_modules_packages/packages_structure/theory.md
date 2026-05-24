@@ -51,3 +51,13 @@ from .auth import login  # Allows "import my_package; my_package.login()"
 
 > [!TIP]
 > Keep your package structure shallow. Deeply nested packages (e.g., `a.b.c.d.e.f.module`) are hard to navigate and maintain.
+
+---
+
+## Resources
+
+- **Official Python Packaging Documentation** – https://packaging.python.org/tutorials/packaging-projects/
+- **Real Python: Python Packages** – https://realpython.com/python-modules-packages/
+- **Corey Schafer: Python Packages (YouTube)** – https://www.youtube.com/watch?v=0sOvCWFmrtA
+- **GeeksforGeeks: Python Packages** – https://www.geeksforgeeks.org/python-packages/
+- **Fluent Python (Book) – Chapter on Packages** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

@@ -76,3 +76,13 @@ print(matrix[0][1]) # 2
 
 > [!TIP]
 > Use `len(my_list)` to find out how many items are in your list!
+
+---
+
+## Resources
+
+- **Official Python Lists Documentation** – https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+- **Real Python: Python Lists** – https://realpython.com/python-lists-tuples/
+- **Corey Schafer: Python Lists (YouTube)** – https://www.youtube.com/watch?v=ohCDWZgNIU0
+- **GeeksforGeeks: Python List** – https://www.geeksforgeeks.org/python-list/
+- **Fluent Python (Book) – Chapter on Data Structures** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

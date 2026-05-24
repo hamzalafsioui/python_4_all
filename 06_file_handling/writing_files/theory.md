@@ -31,6 +31,14 @@ with open("output.txt", "w") as f:
 
 ## 3. Buffering
 When you call `write()`, Python might not save the data to the disk immediately (for performance reasons). It stores it in a "buffer" first.
+
+## Resources
+
+- **Official Python open() Documentation** – https://docs.python.org/3/library/functions.html#open
+- **Real Python: Writing Files in Python** – https://realpython.com/working-with-files-in-python/#writing-files
+- **Corey Schafer: File I/O Tutorial (YouTube)** – https://www.youtube.com/watch?v=Uh2ebFW8OYM
+- **GeeksforGeeks: File Write in Python** – https://www.geeksforgeeks.org/file-handling-python/#write
+- **Effective Python: 13. Be explicit about file encoding** – https://effectivepython.com/
 - Data is physically saved when you **close** the file (which the `with` statement does automatically).
 - You can manually force a save using `file.flush()`.
 

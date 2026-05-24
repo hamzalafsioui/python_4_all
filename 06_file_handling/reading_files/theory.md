@@ -46,3 +46,11 @@ When you read from a file, Python keeps track of where you are. If you call `rea
 
 > [!IMPORTANT]
 > Always check if a file exists before trying to read it, or wrap your code in a `try/except FileNotFoundError` block to prevent crashes!
+
+## Resources
+
+- **Official Python open() Documentation** – https://docs.python.org/3/library/functions.html#open
+- **Real Python: Working with Files in Python** – https://realpython.com/working-with-files-in-python/
+- **Corey Schafer: Reading and Writing Files (YouTube)** – https://www.youtube.com/watch?v=Uh2ebFW8OYM
+- **Python File I/O (GeeksforGeeks)** – https://www.geeksforgeeks.org/file-handling-python/
+- **Effective Python: 13. Be explicit about file encoding** – https://effectivepython.com/

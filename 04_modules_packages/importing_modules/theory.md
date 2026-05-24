@@ -48,3 +48,13 @@ print(randint(1, 10)) # Where did randint come from? Hard to tell in large files
 
 > [!TIP]
 > Always place your imports at the **top** of your Python files. This follows the PEP 8 style guide and makes dependencies clear immediately.
+
+---
+
+## Resources
+
+- **Official Python Import System Documentation** – https://docs.python.org/3/reference/import.html
+- **Real Python: Importing Modules in Python** – https://realpython.com/python-modules-packages/
+- **Corey Schafer: Python Modules and Packages (YouTube)** – https://www.youtube.com/watch?v=CqvZ3vGoGs0
+- **GeeksforGeeks: Python Modules** – https://www.geeksforgeeks.org/python-modules/
+- **Fluent Python (Book) – Chapter on Modules** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

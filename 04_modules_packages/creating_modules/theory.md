@@ -53,3 +53,11 @@ When you say `import my_module`, Python looks in:
 
 > [!IMPORTANT]
 > Never name your module the same as a standard library module. For example, naming your module `random.py` will break any code that tries to use the real `random` module!
+
+## Resources
+
+- **Official Python Modules Documentation** – https://docs.python.org/3/tutorial/modules.html
+- **Real Python: Python Modules and Packages** – https://realpython.com/python-modules-packages/
+- **Corey Schafer: Python Modules & Packages (YouTube)** – https://www.youtube.com/watch?v=CqvZ3vGoGs0
+- **Python Packaging User Guide** – https://packaging.python.org/tutorials/packaging-projects/
+- **PEP 8 – Style Guide for Python Code** – https://peps.python.org/pep-0008/

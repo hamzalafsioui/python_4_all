@@ -43,3 +43,12 @@ with open("user.json", "w") as f:
 
 > [!NOTE]
 > JSON keys must always be strings (wrapped in double quotes `"`), whereas Python dictionary keys can be any hashable type (like integers or tuples).
+
+## Resources
+
+- **Official Python json Documentation** – https://docs.python.org/3/library/json.html
+- **Real Python: Working with JSON Data** – https://realpython.com/python-json/
+- **Corey Schafer: JSON in Python (YouTube)** – https://www.youtube.com/watch?v=9N6a-VLBa2I
+- **JSON.org Specification** – https://www.json.org/json-en.html
+- **Python for Everybody – Chapter on JSON** – https://www.py4e.com/book
+

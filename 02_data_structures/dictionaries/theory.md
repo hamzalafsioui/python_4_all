@@ -61,3 +61,14 @@ You can loop through keys, values, or both:
 
 > [!IMPORTANT]
 > **Keys must be immutable!** You can use strings, numbers, or tuples as keys, but you cannot use **lists** because they can change.
+
+---
+
+## Resources
+
+- **Official Python Dictionaries Documentation** – https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+- **Real Python: Python Dictionaries** – https://realpython.com/python-dicts/
+- **Corey Schafer: Python Dictionaries (YouTube)** – https://www.youtube.com/watch?v=daefaLgNkwk
+- **GeeksforGeeks: Python Dictionary** – https://www.geeksforgeeks.org/python-dictionary/
+- **Fluent Python (Book) – Chapter on Dictionaries** – https://www.oreilly.com/library/view/fluent-python/9781491946237/
+

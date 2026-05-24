@@ -50,3 +50,11 @@ except Exception as e:
 
 > [!WARNING]
 > Always list your most specific exceptions first and the general `Exception` last. If you put `except Exception` at the top, it will "swallow" all errors before the specific blocks get a chance to run.
+
+## Resources
+
+- **Official Python Exception Hierarchy Documentation** – https://docs.python.org/3/library/exceptions.html
+- **Real Python: Python Exception Handling** – https://realpython.com/python-exceptions/
+- **Corey Schafer: Python Errors and Exceptions (YouTube)** – https://www.youtube.com/watch?v=NIWwJbo-9_8
+- **Python Docs: try...except...else...finally** – https://docs.python.org/3/tutorial/errors.html#handling-exceptions
+- **Effective Python: 3.6 Use exceptions wisely (Book)** – https://effectivepython.com/

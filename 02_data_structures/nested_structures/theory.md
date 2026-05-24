@@ -63,3 +63,12 @@ new_structure = copy.deepcopy(old_structure)
 
 > [!TIP]
 > When working with deeply nested data (like API responses), always use `.get()` for dictionaries to avoid `KeyError` if a level is missing!
+---
+
+## Resources
+
+- **Official Python Data Structures Documentation** – https://docs.python.org/3/tutorial/datastructures.html
+- **Real Python: Working with Nested Data Structures** – https://realpython.com/python-nested-data-structures/
+- **Corey Schafer: Working with JSON Data (YouTube)** – https://www.youtube.com/watch?v=9LgyK7X5Z9U
+- **GeeksforGeeks: Nested Dictionaries in Python** – https://www.geeksforgeeks.org/python-nested-dictionaries/
+- **Fluent Python (Book) – Chapter on Data Structures** – https://www.oreilly.com/library/view/fluent-python/9781491946237/

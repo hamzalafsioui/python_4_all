@@ -57,3 +57,13 @@ print(sum_all(1, 2, 3, 4, 5)) # 15
 > **The Order Rule**: When defining a function, positional parameters must come **before** default parameters!
 > `def func(a, b=10):` ✅
 > `def func(a=10, b):` ❌ (Syntax Error)
+
+---
+
+## Resources
+
+- **Official Python Docs** – Function definitions and argument conventions: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+- **Real Python** – *How to Use Arguments in Python Functions*: https://realpython.com/python-arguments/
+- **Corey Schafer** – *Python Function Arguments* (YouTube): https://www.youtube.com/watch?v=9Os0o3wzS_k
+- **GeeksforGeeks** – *Python Function Arguments*: https://www.geeksforgeeks.org/python-function-arguments/
+- **Fluent Python** – Chapter 3 “Functions” (covers positional, keyword, default, *args, **kwargs)

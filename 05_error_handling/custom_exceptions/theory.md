@@ -50,3 +50,13 @@ except Exception as e:
 
 > [!IMPORTANT]
 > When creating custom exceptions, always give them descriptive names ending in `Error` (e.g., `NetworkTimeoutError`, `InvalidInputError`). This follows the standard Python naming convention.
+
+---
+
+## Resources
+
+- **Official Python Documentation on Exceptions** – https://docs.python.org/3/tutorial/errors.html
+- **Real Python: Custom Exceptions** – https://realpython.com/python-custom-exceptions/
+- **Corey Schafer: Python Exceptions (YouTube)** – https://www.youtube.com/watch?v=NIWwJbo-9_8
+- **GeeksforGeeks: Python Custom Exception** – https://www.geeksforgeeks.org/python-custom-exceptions/
+- **Fluent Python (Book) – Chapter on Errors and Exceptions** – https://www.oreilly.com/library/view/fluent-python/9781491946237/
