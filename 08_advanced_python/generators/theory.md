@@ -51,3 +51,11 @@ square_gen = (x**2 for x in range(10))
 1. **Use for Large Files**: Never use `.read().split()` on a 2GB file. Use a generator to read it line by line.
 2. **Infinite Sequences**: Use generators for things that never end (like timestamps or IDs).
 3. **Chain Them**: You can pipe generators into each other to build a data pipeline.
+
+## Resources
+- **Python Docs – Generators** – https://docs.python.org/3/tutorial/classes.html#generators
+- **Real Python – Generators** – https://realpython.com/introduction-to-python-generators/
+- **Corey Schafer – Python Generators Tutorial** – https://www.youtube.com/watch?v=bD05uGo_sVI
+- **GeeksforGeeks – Python Generators** – https://www.geeksforgeeks.org/generators-in-python/
+- **Programiz – Python Generators** – https://www.programiz.com/python-programming/generator
+- **Stack Overflow – Common Generator Questions** – https://stackoverflow.com/questions/tagged/python+generator

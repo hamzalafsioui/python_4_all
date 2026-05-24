@@ -99,3 +99,11 @@ def repeat(n):
 
 > [!IMPORTANT]
 > Decorators are evaluated at **import time** (when the script starts), not when the decorated function is called. This makes them extremely efficient for setting up configurations or protections.
+
+## Resources
+- **Python Docs – Decorators** – https://docs.python.org/3/reference/compound_stmts.html#decorator
+- **Real Python – Python Decorators** – https://realpython.com/primer-on-python-decorators/
+- **Corey Schafer – Python Decorators Tutorial** – https://www.youtube.com/watch?v=F6u5rhUQ6dU
+- **GeeksforGeeks – Python Decorators** – https://www.geeksforgeeks.org/python-decorators/
+- **Programiz – Python Decorators** – https://www.programiz.com/python-programming/decorator
+- **Stack Overflow – Common Decorator Questions** – https://stackoverflow.com/questions/tagged/python+decorator

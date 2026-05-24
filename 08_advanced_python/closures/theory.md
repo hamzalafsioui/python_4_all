@@ -51,3 +51,11 @@ def make_counter():
 1. **Don't Overuse**: If your closure logic gets too complex, it's usually better to use a **Class**.
 2. **Memory Awareness**: Since closures "remember" variables, those variables stay in memory as long as the closure exists. Be careful with large data sets.
 3. **Naming**: Use descriptive names for the "factory" function and the "returned" function to avoid confusion.
+
+## Resources
+- **Python Docs – Closures** – https://docs.python.org/3/tutorial/closures.html
+- **Real Python – Understanding Closures** – https://realpython.com/inner-functions-closures-python/
+- **Corey Schafer – Python Closures Tutorial** – https://www.youtube.com/watch?v=swU3cZB0iZk
+- **Programiz – Python Closures** – https://www.programiz.com/python-programming/closure
+- **GeeksforGeeks – Python Closures** – https://www.geeksforgeeks.org/python-closures/
+- **Stack Overflow – Common Closure Questions** – https://stackoverflow.com/questions/tagged/python+closure

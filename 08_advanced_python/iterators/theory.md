@@ -55,3 +55,11 @@ while True:
 1. **Clean Up**: If your iterator opens a file or a network socket, ensure you close it when `StopIteration` is raised.
 2. **One-Time Use**: Remember that iterators are "exhausted" after one traversal. If you need to loop again, you need a new iterator object.
 3. **Prefer Generators for Simple Logic**: If you just need a simple loop, use a generator function (it's less code). Use an iterator class for complex, state-heavy logic.
+
+## Resources
+- **Python Docs – Iterator Protocol** – https://docs.python.org/3/reference/iterator.html
+- **Real Python – Iterators and Iterables** – https://realpython.com/python-iterables-iterators/
+- **Corey Schafer – Python Iterators** – https://www.youtube.com/watch?v=Vfo8w3ZgZVU
+- **GeeksforGeeks – Python Iterators** – https://www.geeksforgeeks.org/python-iterators/
+- **Programiz – Python Iterators** – https://www.programiz.com/python-programming/iterator
+- **Stack Overflow – Common Iterator Questions** – https://stackoverflow.com/questions/tagged/python+iterator

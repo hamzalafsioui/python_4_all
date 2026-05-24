@@ -57,3 +57,11 @@ def simple_manager():
 1. **Keep it Small**: A context manager should focus on one resource.
 2. **Don't Swallow Errors**: Unless you have a good reason, let exceptions propagate through `__exit__` so the user knows something went wrong.
 3. **Use for Transactions**: Perfect for database commits/rollbacks.
+
+## Resources
+- **Python Docs – Context Managers** – https://docs.python.org/3/library/contextlib.html
+- **Real Python – Using Context Managers** – https://realpython.com/python-with-statement/
+- **Corey Schafer – Python Context Managers** – https://www.youtube.com/watch?v=IEEhzQoKtQU
+- **GeeksforGeeks – Python Context Manager** – https://www.geeksforgeeks.org/python-context-manager/
+- **Programiz – Python Context Manager** – https://www.programiz.com/python-programming/context-manager
+- **Stack Overflow – Common Context Manager Questions** – https://stackoverflow.com/questions/tagged/python+context-manager
