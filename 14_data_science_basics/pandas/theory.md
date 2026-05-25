@@ -89,3 +89,12 @@ avg_salaries = df.groupby("Department")["Salary"].mean()
 1. **Never use standard Python loops over rows**: Avoid using `for index, row in df.iterrows()`. It is extremely slow. Use vectorized operations or `.apply()` instead.
 2. **Avoid SettingWithCopyWarning**: When filtering a DataFrame and modifying the result, make sure to use `.copy()` (e.g., `df_subset = df[df["Age"] > 30].copy()`) to tell Pandas you want a brand-new DataFrame.
 3. **Handle Missing Data**: Always check for missing values using `df.isnull().sum()` and clean them using `.dropna()` (to remove) or `.fillna(value)` (to fill).
+
+## Resources
+
+- **Official Pandas Documentation** – https://pandas.pydata.org/docs/
+- **Pandas Getting Started Tutorials** – https://pandas.pydata.org/docs/getting_started/intro_tutorials/
+- **Real Python: Pandas Tutorial** – https://realpython.com/pandas-python-explore-dataset/
+- **Kaggle: Pandas Course** – https://www.kaggle.com/learn/pandas
+- **Python for Data Analysis (Wes McKinney)** – https://wesmckinney.com/book/
+- **Pandas Cheat Sheet (DataCamp)** – https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python

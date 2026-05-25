@@ -165,3 +165,12 @@ plt.close()
     *   **PDF/SVG**: Vector formats. They never get pixelated, making them perfect for academic papers or website graphics.
 4.  **Avoid Crowding**: Let the data breathe. Remove unnecessary borders ("spines") or adjust label sizes so readers can scan the figure in under 3 seconds.
 5.  **Always Close Figures**: Use `plt.close()` at the end of scripts. If you are generating thousands of plots in a loop, failing to close them will crash your system due to memory leaks.
+
+## Resources
+
+- **Official Matplotlib Documentation** – https://matplotlib.org/stable/contents.html
+- **Official Seaborn Documentation** – https://seaborn.pydata.org/
+- **Real Python: Data Visualization with Matplotlib & Seaborn** – https://realpython.com/python-matplotlib-guide/
+- **Python Graph Gallery** – https://python-graph-gallery.com/
+- **Towards Data Science: Visualization Guides** – https://towardsdatascience.com/tagged/data-visualization
+- **Kaggle: Data Visualization Courses** – https://www.kaggle.com/learn/data-visualization

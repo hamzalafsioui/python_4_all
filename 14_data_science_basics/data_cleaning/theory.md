@@ -199,3 +199,12 @@ df_no_outliers = df[(df["Score"] >= lower_bound) & (df["Score"] <= upper_bound)]
 2. **Inspect After Every Step**: Run `df.shape` or `df.isna().sum()` after dropping rows or columns to verify the effect.
 3. **Avoid SettingWithCopyWarning**: Do not modify subsets of DataFrames directly (e.g. `df[df.Age > 30]["Status"] = "Active"`). Instead, use `.loc` (e.g. `df.loc[df.Age > 30, "Status"] = "Active"`) or `.copy()`.
 4. **Use Vectorized Operations**: Avoid row-by-row iteration (`for index, row in df.iterrows()`). Pandas methods are implemented in C and run orders of magnitude faster.
+
+## Resources
+
+- **Official Pandas Documentation** – https://pandas.pydata.org/docs/
+- **Official NumPy Documentation** – https://numpy.org/doc/
+- **Real Python: Data Cleaning with Pandas** – https://realpython.com/pandas-data-cleaning/
+- **Kaggle: Data Cleaning Cheat Sheet** – https://www.kaggle.com/learn/data-cleaning-cheat-sheet
+- **Python Data Cleaning Cookbook (O'Reilly)** – https://www.oreilly.com/library/view/python-data-cleaning/9781492048801/
+- **Effective Pandas: Tips and Tricks** – https://towardsdatascience.com/effective-pandas-tips-tricks-75f0e55310c9

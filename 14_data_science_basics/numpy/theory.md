@@ -70,3 +70,12 @@ print(a * 2)  # [2, 4, 6]    (Broadcasting scalar multiplication)
 1. **Never loop over NumPy arrays**: If you write `for item in arr:`, you lose all the C-speed benefits of NumPy. Use vectorized expressions.
 2. **Specify dtypes**: If you know your data is only small integers, specifying `dtype=np.int8` saves massive amounts of RAM.
 3. **Avoid Copies (Be careful with Slices)**: Slicing an array creates a **view**, not a copy. If you modify a slice, the original array changes too! Use `.copy()` if you need an isolated copy.
+
+## Resources
+
+- **Official NumPy Documentation** – https://numpy.org/doc/stable/
+- **NumPy Quickstart Tutorial** – https://numpy.org/doc/stable/user/quickstart.html
+- **Real Python: NumPy Tutorial** – https://realpython.com/numpy-tutorial/
+- **Stanford CS231n: Python NumPy Tutorial** – https://cs231n.github.io/python-numpy-tutorial/
+- **From Python to NumPy (Book)** – https://www.labri.fr/perso/nrougier/from-python-to-numpy/
+- **NumPy Illustrated (Visual Guide)** – https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d
