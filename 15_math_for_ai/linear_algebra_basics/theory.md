@@ -122,3 +122,12 @@ When predicting on a whole batch of inputs ($X$), the computation becomes a clea
 $$Y = \sigma(X W^T + \mathbf{b})$$
 
 Using GPUs to perform these large-scale matrix multiplications is what makes modern Deep Learning possible.
+
+## Resources
+
+- **3Blue1Brown: Essence of Linear Algebra (YouTube)** – https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+- **Khan Academy: Linear Algebra** – https://www.khanacademy.org/math/linear-algebra
+- **MIT OpenCourseWare: 18.06 Linear Algebra (Gilbert Strang)** – https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+- **Mathematics for Machine Learning (Book, Free)** – https://mml-book.github.io/
+- **NumPy Linear Algebra Module** – https://numpy.org/doc/stable/reference/routines.linalg.html
+- **Deep Learning Book – Chapter 2: Linear Algebra (Goodfellow)** – https://www.deeplearningbook.org/contents/linear_algebra.html
