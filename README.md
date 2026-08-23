@@ -18,7 +18,7 @@ Every module in this repository follows a consistent, production-oriented struct
 2. **See** clean, runnable code demonstrations ([`examples.py`](./00_foundations/variables_and_types/examples.py))
 3. **Practice** hands-on problems with solution validation ([`exercises.py`](./00_foundations/variables_and_types/exercises.py))
 4. **Build** functional mini-projects ([`project.py`](./00_foundations/variables_and_types/project.py))
-5. **Explore** interactively with data/math plots ([`notebook.ipynb`](./15_math_for_ai/linear_algebra_basics/notebook.ipynb) — *Data & Math modules*)
+5. **Explore** interactively with data/math plots ([`notebook.ipynb`](./15_math_for_ai/linear_algebra_basics/notebook.ipynb) | *Data & Math modules*)
 
 ---
 
