@@ -20,9 +20,10 @@ By the end of this module, you will be able to:
 - Create publication-quality data visualizations using Matplotlib and Seaborn.
 
 ## Files in This Module
-- `README.md` — This file
-- `requirements.txt` — Dependencies for this module
-- `numpy/` — NumPy basics, arrays, operations
-- `pandas/` — Pandas Series, DataFrames, data manipulation
-- `data_cleaning/` — Handling missing data, duplicates, outliers, formatting
-- `data_visualization/` — Matplotlib and Seaborn plotting
+- `README.md` - This file
+- [`problem_solving_data_engineer.ipynb`](./problem_solving_data_engineer.ipynb) - 15 Data Engineering problem-solving exercises in pure Python (ETL, CSV parsing, cleaning, GroupBy, SQL joins)
+- `requirements.txt` - Dependencies for this module
+- `numpy/` - NumPy basics, arrays, operations
+- `pandas/` - Pandas Series, DataFrames, data manipulation
+- `data_cleaning/` - Handling missing data, duplicates, outliers, formatting
+- `data_visualization/` - Matplotlib and Seaborn plotting
