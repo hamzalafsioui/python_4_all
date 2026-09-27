@@ -19,9 +19,11 @@ By the end of this module, you will be able to:
 - Complete the exercises and build the mini-project successfully.
 
 ## Files in This Module
-- `README.md` — This file
-- `theory.md` — Detailed concepts
-- `examples.py` — Code demonstrations
-- `exercises.py` — Practice problems
-- `project.py` — Mini-project
-- `requirements.txt` — Dependencies
+- `README.md` - This file
+- [`python_list_dict_tuple_deep_summary.md`](./python_list_dict_tuple_deep_summary.md) - Deep dive summary (Lists, Dicts, Tuples internals, patterns, and solved problems)
+- [`survive.ipynb`](./survive.ipynb) - 22 Advanced Survival Challenges (Lists, Tuples, Dictionaries, Algorithms, and Data Structures)
+- `theory.md` - Detailed concepts
+- `examples.py` - Code demonstrations
+- `exercises.py` - Practice problems
+- `project.py` - Mini-project
+- `requirements.txt` - Dependencies
